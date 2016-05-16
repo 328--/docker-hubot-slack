@@ -6,7 +6,7 @@ Please rewrite docker-compose.yml
     - HUBOT_SLACK_BOTNAME=xxxxxx
 ```
 
-# Hot to Use
+# How to Use
 
 ```
 $ docker-compose build
