@@ -1,0 +1,8 @@
+hubot-slack:
+  build: ./
+  volumes:
+    - /etc/localtime:/etc/localtime:ro
+  environment:
+    - HUBOT_SLACK_TOKEN=hoge-giehwiaghewiageaw
+    - HUBOT_SLACK_TEAM=TEAM.slack.com
+    - HUBOT_SLACK_BOTNAME=botname
